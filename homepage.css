@@ -1,0 +1,43 @@
+body {
+  color: rgba(24, 21, 21, 0.863);
+	background:url(img/fairyland.gif)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+/* home */
+.home-form{
+  margin-top: 150px;
+}
+h1{
+  font-size: 60pt;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #e5dfe7,
+    0 0 82px #e8e1eb,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+#logout__btn{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 12px;
+border-style: solid;
+border-color: #3a3f41;
+background-color: wheat;
+font-size: 15pt;
+cursor: pointer;
+margin-top: 35px;
+box-shadow: 3px 3px 3px rgba(161, 7, 84, 0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+#logout__btn:hover{
+  background: #063d2b;
+}
